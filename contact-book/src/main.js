@@ -3,6 +3,8 @@ import App from './App.vue'
 import { createRouter, createWebHistory } from 'vue-router'
 import Home from './views/HomeView.vue'
 import ContactDetails from './views/ContactView.vue'
+import './assets/styles.css';  // Importing the CSS file from src/assets folder
+
 
 // Set up Vue Router
 const routes = [
