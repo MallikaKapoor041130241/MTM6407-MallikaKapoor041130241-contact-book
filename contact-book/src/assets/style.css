@@ -1,0 +1,152 @@
+/* Importing the Poppins font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(45deg, #FF6F61, #6A5B3B); /* Gradient background */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  overflow: hidden;
+}
+
+.container {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 50px;
+  border-radius: 15px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  width: 80%;
+  max-width: 600px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.container:hover {
+  transform: scale(1.05); /* Slightly enlarges the container on hover */
+}
+
+/* Heading */
+h1 {
+  font-size: 4rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+/* Subheading */
+h2 {
+  font-size: 2.5rem;
+  font-weight: 400;
+  margin-bottom: 30px;
+  color: #FFDA7E;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Main Content Box */
+.contact-card {
+  background: #fff;
+  color: #333;
+  border-radius: 15px;
+  padding: 20px;
+  margin-top: 30px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.contact-card:hover {
+  transform: scale(1.02); /* Slight hover effect */
+}
+
+.contact-card h3 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.contact-card p {
+  font-size: 1.2rem;
+  margin: 5px 0;
+  color: #555;
+}
+
+.contact-card .btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #FF6F61;
+  color: #fff;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+  margin-top: 20px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.2s ease-in-out;
+}
+
+.contact-card .btn:hover {
+  background-color: #FF3B2F;
+  transform: translateY(-5px); /* Slight hover effect for button */
+}
+
+.contact-card .btn:active {
+  transform: translateY(2px); /* Button press effect */
+}
+
+input[type="text"], input[type="email"] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  font-size: 1rem;
+  outline: none;
+}
+
+input[type="text"]:focus, input[type="email"]:focus {
+  border: 1px solid #FF6F61;
+  box-shadow: 0 0 10px rgba(255, 111, 97, 0.5);
+}
+
+form {
+  margin-top: 20px;
+}
+
+form .form-group {
+  margin-bottom: 15px;
+}
+
+form .submit-btn {
+  background-color: #6A5B3B;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+form .submit-btn:hover {
+  background-color: #FF6F61;
+}
+
+/* Footer Styles */
+footer {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  font-size: 1rem;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+}
