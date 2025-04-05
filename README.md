@@ -38,3 +38,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## GitHub Repository
 [https://github.com/MallikaKapoor041130241/MTM6407-MallikaKapoor041130241-contact-book.git](https://github.com/MallikaKapoor041130241/MTM6407-MallikaKapoor041130241-contact-book.git)
+
+## Live Site
+You can view the live version of the site here: [http://localhost:5175/]
