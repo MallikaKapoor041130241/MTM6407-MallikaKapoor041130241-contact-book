@@ -25,14 +25,6 @@ This project aims to build a contact book web application using Vue 3, Vue Route
 1. Clone the repository:
    ```bash
    git clone https://github.com/MallikaKapoor041130241/MTM6407-MallikaKapoor041130241-contact-book.git
-   
-## Usage
-
-- **View Contacts**: The contact book will show a list of contacts, sorted alphabetically by last name.
-- **Search Contacts**: Use the search bar to filter contacts by first name or last name.
-- **Contact Details**: Click on a contact's name to view their details.
-- **Add New Contact**: Fill out the form with the first name, last name, and email, then submit to add a contact.
-- **Delete Contact**: Click the delete button to remove a contact from the contact book and local storage.
 
 ## Technologies Used
 
